@@ -1,0 +1,35 @@
+/* dark theme styles */
+html[data-theme='dark'] .slick-prev::before {
+  color: white;
+  font-size: 24px;
+}
+
+html[data-theme='dark'] .slick-next::before {
+  color: white;
+  font-size: 24px;
+}
+
+html[data-theme='dark'] .slick-dots li button:before {
+  color: white;
+  font-size: 10px;
+}
+
+html[data-theme='dark'] .slick-dots li.slick-active button:before {
+  color: white;
+}
+
+/* light theme styles  */
+html[data-theme='light'] .slick-prev::before,
+.slick-next::before {
+  color: black;
+  font-size: 24px;
+}
+
+html[data-theme='light'] .slick-dots li button:before {
+  color: black;
+  font-size: 10px;
+}
+
+html[data-theme='light'] .slick-dots li.slick-active button:before {
+  color: black;
+}
