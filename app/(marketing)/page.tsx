@@ -94,7 +94,7 @@ const HeroSection: React.FC = () => {
             id="home"
             justifyContent="flex-start"
             px="0"
-            title={<FallInPlace> your perspeElevatective</FallInPlace>}
+            title={<FallInPlace> At Chainfly, we redefine how industries leverage AI image analysis for actionable insights</FallInPlace>}
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
                 Chainfly leverages drone technology and AI-driven data analytics
